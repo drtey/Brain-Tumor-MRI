@@ -1,5 +1,3 @@
-# Deep Learning for Brain Tumor Analysis
-
 ## Description
 Project focused on brain tumor detection and classification through magnetic resonance imaging (MRI) analysis. Using advanced convolutional neural network (CNN) models in PyTorch, this project seeks to improve accuracy and efficiency in brain tumor identification.
 
