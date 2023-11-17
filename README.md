@@ -1,5 +1,3 @@
-## Deep Learning for Brain Tumor Analysis
-
 ## Description
 Project focused on brain tumor detection and classification through magnetic resonance imaging (MRI) analysis. Using advanced convolutional neural network (CNN) models in PyTorch, this project seeks to improve accuracy and efficiency in brain tumor identification.
 
@@ -16,9 +14,9 @@ Early and accurate detection of brain tumors is crucial for treatment and patien
 The project uses the "[Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)" dataset available in Kaggle, which contains 7023 MRI images classified into 4 categories.
 
 ## Technologies Used
-- **PyTorch**: For the construction and training of deep learning models.
-- **OpenCV**: For image processing and manipulation.
-- **Matplotlib**: For data and image visualization.
+- **PyTorch**: construction and training of deep learning models.
+- **OpenCV**: image processing and manipulation.
+- **Matplotlib**: data and image visualization.
 
 ## Installation and Use
 
