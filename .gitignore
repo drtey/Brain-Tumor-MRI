@@ -136,7 +136,6 @@ cython_debug/
 # profiling data
 .prof
 
-
 # Data directories
 data/
 *.data
@@ -151,6 +150,9 @@ models/
 *.csv
 *.tsv
 *.xlsx
+*.jpg
+*.jpeg
+*.png
 
 # Jupyter notebooks
 *.ipynb
