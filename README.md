@@ -36,8 +36,8 @@ The CNN model processes MRI images to classify them based on tumor presence. It 
 
 1. Clone the repository: `git clone https://github.com/YourRepo/Brain-Tumor-MRI.git`
 2. Create and activate virtual
-   `environment python3 -m venv <venv_name>
-    source <venv_name>/bin/activate`
+   `environment python3 -m venv <venv_name>`
+   `source <venv_name>/bin/activate`
 4. Install required libraries: `pip install -r requirements.txt`
 5. Run the notebook: `jupyter notebook model.ipynb`
 
