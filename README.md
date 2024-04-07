@@ -1,28 +1,44 @@
-## Description
-Project focused on brain tumor detection and classification through magnetic resonance imaging (MRI) analysis. Using advanced convolutional neural network (CNN) models in PyTorch, this project seeks to improve accuracy and efficiency in brain tumor identification.
+# Brain Tumor MRI Classification
 
-## Motivation
-Early and accurate detection of brain tumors is crucial for treatment and patient survival. The application of deep learning techniques to analyze medical images represents a significant opportunity to improve diagnoses and patient outcomes.
+## Description
+
+This project leverages Convolutional Neural Networks (CNN) to classify MRI images into categories indicating the presence or absence of a brain tumor. Designed to assist in the preliminary screening process, this model aims to speed up diagnosis and aid in treatment planning by utilizing advanced deep learning techniques on MRI image data.
 
 ## Features
-- **Tumor classification**: Classifies MRI images into different tumor categories such as glioma, meningioma, non-tumor and pituitary.
-- **Tumor segmentation**: Accurate localization and delineation of tumors in MRI images.
-- **Deep Learning Models**: Use of pre-trained and customized CNN architectures.
-- **User-friendly interface**: Visualization and analysis tools for easy interpretation of results.
+
+- **Automated MRI Analysis:** Classifies MRI images into 'tumor' or 'no tumor' categories automatically.
+- **High Accuracy:** Uses advanced CNN architectures for high classification accuracy.
+- **Data Augmentation:** Employs data augmentation to improve model robustness and generalization.
+- **Easy Integration:** Can be easily integrated into existing medical imaging analysis workflows.
 
 ## Data
-The project uses the "[Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)" dataset available in Kaggle, which contains 7023 MRI images classified into 4 categories.
+
+The dataset includes MRI images categorized into 'with tumor' and 'without tumor'. These images are preprocessed to meet the model's input requirements. The dataset is divided into training, validation, and test sets to ensure accurate performance evaluation.
 
 ## Technologies Used
-- **PyTorch**: construction and training of deep learning models.
-- **OpenCV**: image processing and manipulation.
-- **Matplotlib**: data and image visualization.
 
-## Installation and Use
+- **Python:** The primary programming language.
+- **PyTorch:** The deep learning framework for model building and training.
+- **NumPy:** For numerical operations.
+- **Matplotlib:** For data and results visualization.
+- **Jupyter Notebook:** For development, documentation, and execution.
 
-``` 
-python3 -m venv <venv_name>
-source <venv_name>/bin/activate
-pip install -r requirements.txt
-```
+## CNN Model Overview
+
+The CNN model processes MRI images to classify them based on tumor presence. It includes:
+
+1. **Convolutional Layers:** Extract features from images using filters.
+2. **Activation Functions:** ReLU introduces non-linearity, allowing for complex pattern learning.
+3. **Pooling Layers:** Reduce feature map dimensions to decrease computation and prevent overfitting.
+4. **Fully Connected Layers:** Perform classification based on extracted and downsampled features, with a softmax function outputting class probabilities.
+
+## How to Run
+
+1. Clone the repository: `git clone https://github.com/YourRepo/Brain-Tumor-MRI.git`
+2. Create and activate virtual
+   `environment python3 -m venv <venv_name>
+    source <venv_name>/bin/activate`
+4. Install required libraries: `pip install -r requirements.txt`
+5. Run the notebook: `jupyter notebook model.ipynb`
+
 
